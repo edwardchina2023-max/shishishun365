@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://edwardchina2023-max.github.io/shishishun365/sitemap.xml
