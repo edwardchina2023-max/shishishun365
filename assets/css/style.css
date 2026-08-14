@@ -241,7 +241,10 @@ button { color: inherit; }
   min-height: 860px;
   padding: 100px max(44px, calc((100vw - 1240px) / 2));
   padding-left: 70px;
-  background: var(--red-black);
+  background:
+    radial-gradient(circle at 78% 20%, rgba(122, 28, 33, .2), transparent 36%),
+    linear-gradient(135deg, #1a0709 0%, #100506 58%, #24090c 100%);
+  border-left: 1px solid rgba(201, 164, 92, .2);
   color: var(--cream);
 }
 .culture-intro { align-self: center; }
